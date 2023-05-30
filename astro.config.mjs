@@ -3,7 +3,7 @@ import tailwind from "@astrojs/tailwind";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://pytrento.github.io",
-  base: "/",
+  site: "https://pythonitalia.github.io",
+  base: "/trento.python.it",
   integrations: [tailwind({ config: { applyBaseStyles: false } })],
 });
