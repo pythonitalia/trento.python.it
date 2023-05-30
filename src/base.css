@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .link-element {
+    @apply border-2 border-secondary text-white inline-block rounded-full text-center py-4 px-10 mt-4;
+    @apply w-full text-xl;
+    @apply hover:bg-secondary hover:transition-colors hover:cursor-pointer;
+  }
+}
