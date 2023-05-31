@@ -1,6 +1,7 @@
 ---
 import { Image } from "@astrojs/image/components";
 import "../base.css";
+import logo from "../images/logo-python-italia.svg";
 ---
 
 <html lang="en">
@@ -9,7 +10,7 @@ import "../base.css";
     <link rel="icon" type="image/svg+xml" href="/img/logo-python-italia.svg" />
     <meta name="viewport" content="width=device-width" />
     <meta name="generator" content={Astro.generator} />
-    <title>PyTrento</title>
+    <title>PyTrento ⛰️</title>
     <meta
       name="description"
       content="La community di Python Italia a Trento ⛰️ "
@@ -19,9 +20,10 @@ import "../base.css";
   <body class="bg-primary min-h-screen">
     <div class="container mx-auto">
       <Image
-        src={"/img/logo-python-italia.svg"}
+        src={logo}
         width={300}
         aspectRatio="1:1"
+        format="svg"
         class="mx-auto w-20 lg:w-52 mt-12"
         alt=""
       />
