@@ -5,8 +5,7 @@ import image from "@astrojs/image";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://pythonitalia.github.io",
-  base: "/trento.python.it",
+  site: "https://trento.python.it",
   integrations: [
     tailwind({
       config: {
